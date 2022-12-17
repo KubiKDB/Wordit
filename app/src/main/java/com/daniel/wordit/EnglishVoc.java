@@ -14983,6 +14983,7 @@ public class EnglishVoc {
             "detent\n" +
             "deters\n" +
             "detest\n" +
+            "detour\n" +
             "detrop\n" +
             "deuced\n" +
             "deuces\n" +
@@ -21839,7 +21840,6 @@ public class EnglishVoc {
             "sexing\n" +
             "sexism\n" +
             "sexist\n" +
-            "sexpot\n" +
             "sextan\n" +
             "sextet\n" +
             "sexton\n" +
@@ -38946,7 +38946,6 @@ public class EnglishVoc {
             "sexiest\n" +
             "sexists\n" +
             "sexless\n" +
-            "sexpots\n" +
             "sextans\n" +
             "sextant\n" +
             "sextets\n" +
@@ -43137,7 +43136,7 @@ public class EnglishVoc {
             "spoof valgus\n" +
             "recoins troche\n" +
             "matcher duel\n" +
-            "sexpots acts\n" +
+            "wrinkle acts\n" +
             "pickles unborn\n" +
             "brows hostel\n" +
             "foxtrot ledge\n" +
@@ -51179,7 +51178,7 @@ public class EnglishVoc {
             "Rice wheat\n" +
             "Tube metro\n" +
             "Call phone\n" +
-            "Apple pear\n" +
+            "Lunch food\n" +
             "Sushi roll\n" +
             "Jazz disco\n" +
             "blue green\n" +

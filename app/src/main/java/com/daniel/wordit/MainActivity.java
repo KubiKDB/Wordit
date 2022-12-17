@@ -4,6 +4,7 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
@@ -55,6 +56,10 @@ public class MainActivity extends AppCompatActivity {
     ImageView star_3;
     ImageView star_4;
     ImageView star_5;
+    ImageView star_pro;
+    ImageButton share;
+    ImageButton review;
+    ImageButton pro_btn;
 
     TextView avg_count;
 
@@ -69,6 +74,8 @@ public class MainActivity extends AppCompatActivity {
 
     Statistics stats;
 
+    ConstraintLayout star_layout;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -80,6 +87,11 @@ public class MainActivity extends AppCompatActivity {
 
         button = findViewById(R.id.button);
         rules = findViewById(R.id.rules);
+        star_layout = findViewById(R.id.star_layout);
+        star_pro = findViewById(R.id.p6);
+        share = findViewById(R.id.share_button);
+        review = findViewById(R.id.review_button);
+        pro_btn = findViewById(R.id.pro_button);
 
 //        EditText test_et = findViewById(R.id.test_et);
 //        String[] arr8000 = new String[8000];
@@ -329,6 +341,8 @@ public class MainActivity extends AppCompatActivity {
         end_word[5] = findViewById(R.id.let_13);
         end_word[6] = findViewById(R.id.let_14);
 
+        disableButtons();
+
         button.setOnClickListener(view -> {
             if (isEnded) {
                 startGame();
@@ -505,19 +519,63 @@ public class MainActivity extends AppCompatActivity {
             blur.setOnClickListener(v -> {
                 stat_layout.setVisibility(View.GONE);
                 rules.setEnabled(true);
+                star_pro.setEnabled(true);
                 blur.setVisibility(View.GONE);
             });
 
             if (stat_layout.getVisibility() == View.GONE) {
                 stat_layout.setVisibility(View.VISIBLE);
                 rules.setEnabled(false);
+                star_pro.setEnabled(false);
                 blur.setVisibility(View.VISIBLE);
             } else if (stat_layout.getVisibility() == View.VISIBLE) {
                 stat_layout.setVisibility(View.GONE);
                 rules.setEnabled(true);
+                star_pro.setEnabled(true);
                 blur.setVisibility(View.GONE);
             }
         });
+
+        star_pro.setOnClickListener(view -> {
+            ConstraintLayout blur = findViewById(R.id.blur);
+            blur.setOnClickListener(v -> {
+                star_layout.setVisibility(View.GONE);
+                rules.setEnabled(true);
+                stats_button.setEnabled(true);
+                blur.setVisibility(View.GONE);
+            });
+
+            if (star_layout.getVisibility() == View.GONE) {
+                star_layout.setVisibility(View.VISIBLE);
+                rules.setEnabled(false);
+                stats_button.setEnabled(false);
+                blur.setVisibility(View.VISIBLE);
+            } else if (star_layout.getVisibility() == View.VISIBLE) {
+                star_layout.setVisibility(View.GONE);
+                rules.setEnabled(true);
+                stats_button.setEnabled(true);
+                blur.setVisibility(View.GONE);
+            }
+        });
+        share.setOnClickListener(view -> {
+            //TODO check if works
+            share();
+        });
+        review.setOnClickListener(view -> {
+            //TODO open for review
+            String str = "https://play.google.com/store/apps/details?id=com.daniel.wordit";
+            Intent i = new Intent(Intent.ACTION_VIEW);
+            i.setData(Uri.parse(str));
+            startActivity(i);
+        });
+    }
+
+    private void share() {
+        Intent myIntent = new Intent(Intent.ACTION_SEND);
+        myIntent.setType("text/plain");
+        String body = "https://play.google.com/store/apps/details?id=com.daniel.wordit";
+        myIntent.putExtra(Intent.EXTRA_TEXT, body);
+        startActivity(Intent.createChooser(myIntent, "Wordit!"));
     }
 
     private void startGame() {

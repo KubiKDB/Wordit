@@ -20,7 +20,7 @@ public class StartRules extends AppCompatActivity {
         TextView textView1 = findViewById(R.id.text1);
         TextView textView2 = findViewById(R.id.text2);
         TextView textView3 = findViewById(R.id.text3);
-        textView1.setText("You get a pair of words. In order to win, you have to transform the former word to the latter one by 7 steps.");
+        textView1.setText("You get a pair of words. In order to win, you have to transform the former word into the latter one in 7 steps.");
         textView2.setText("On each step you have to transform the previous word by one of the following:\n" +
                 "1. Changing the letters\' position.\n" +
                 "For instance, the word \"team\" can be transformed to \"meat\", \"tame\" or \"mate\".\n" +
