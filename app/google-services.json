@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "461397725131",
+    "project_id": "wordit-90d4f",
+    "storage_bucket": "wordit-90d4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461397725131:android:e2e253b8e298d62879f04e",
+        "android_client_info": {
+          "package_name": "com.daniel.wordit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461397725131-4g5haejv7l2fakn1gl5pim8rpgiu0g4d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATRrfNsEZibeVOpjcNMeuY1thvhbarB5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "461397725131-4g5haejv7l2fakn1gl5pim8rpgiu0g4d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,33 +1,59 @@
 package com.daniel.wordit;
 
+import static android.content.ContentValues.TAG;
+
 import android.annotation.SuppressLint;
+import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.SystemClock;
 import android.preference.PreferenceManager;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Chronometer;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
 import com.daniel.wordit.database.StatDatabase;
 import com.daniel.wordit.entities.Statistics;
+import com.google.android.gms.ads.AdError;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.FullScreenContentCallback;
+import com.google.android.gms.ads.LoadAdError;
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.OnPaidEventListener;
+import com.google.android.gms.ads.ResponseInfo;
+import com.google.android.gms.ads.initialization.InitializationStatus;
+import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
+import com.google.android.gms.ads.interstitial.InterstitialAd;
+import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
 import com.google.android.material.snackbar.Snackbar;
+import com.google.firebase.FirebaseApp;
+import com.google.firebase.analytics.FirebaseAnalytics;
 
 import java.util.List;
 import java.util.Locale;
 
 
 public class MainActivity extends AppCompatActivity {
+    private FirebaseAnalytics mFirebaseAnalytics;
+
+    private InterstitialAd mInterstitialAd;
+
+    Chronometer game_time;
     Button button;
     Button rules;
     Button stats_button;
@@ -84,7 +110,6 @@ public class MainActivity extends AppCompatActivity {
         if (!sharedPreferences.getBoolean("IS_SHOWN", false)) {
             startActivity(new Intent(this, SplashActivity.class));
         }
-
         button = findViewById(R.id.button);
         rules = findViewById(R.id.rules);
         star_layout = findViewById(R.id.star_layout);
@@ -92,6 +117,17 @@ public class MainActivity extends AppCompatActivity {
         share = findViewById(R.id.share_button);
         review = findViewById(R.id.review_button);
         pro_btn = findViewById(R.id.pro_button);
+
+//        FirebaseApp.initializeApp(this);
+
+        mFirebaseAnalytics = FirebaseAnalytics.getInstance(MainActivity.this);
+
+        MobileAds.initialize(this, initializationStatus -> {
+        });
+
+        game_time = new Chronometer(this);
+        game_time.setBase(SystemClock.elapsedRealtime());
+        game_time.start();
 
 //        EditText test_et = findViewById(R.id.test_et);
 //        String[] arr8000 = new String[8000];
@@ -558,12 +594,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         share.setOnClickListener(view -> {
-            //TODO check if works
             share();
         });
         review.setOnClickListener(view -> {
-            //TODO open for review
             String str = "https://play.google.com/store/apps/details?id=com.daniel.wordit";
+            Intent i = new Intent(Intent.ACTION_VIEW);
+            i.setData(Uri.parse(str));
+            startActivity(i);
+        });
+        pro_btn.setOnClickListener(view -> {
+            String str = "https://play.google.com/store/apps/details?id=com.daniel.wordit_pro";
             Intent i = new Intent(Intent.ACTION_VIEW);
             i.setData(Uri.parse(str));
             startActivity(i);
@@ -577,6 +617,7 @@ public class MainActivity extends AppCompatActivity {
         myIntent.putExtra(Intent.EXTRA_TEXT, body);
         startActivity(Intent.createChooser(myIntent, "Wordit!"));
     }
+
 
     private void startGame() {
         @SuppressLint("StaticFieldLeak")
@@ -746,6 +787,106 @@ public class MainActivity extends AppCompatActivity {
                     }
                     current_row = 0;
                 }
+
+                AdRequest adRequest = new AdRequest.Builder().build();
+
+                mInterstitialAd = new InterstitialAd() {
+                    @Nullable
+                    @Override
+                    public FullScreenContentCallback getFullScreenContentCallback() {
+                        return null;
+                    }
+
+                    @Nullable
+                    @Override
+                    public OnPaidEventListener getOnPaidEventListener() {
+                        return null;
+                    }
+
+                    @NonNull
+                    @Override
+                    public ResponseInfo getResponseInfo() {
+                        return null;
+                    }
+
+                    @NonNull
+                    @Override
+                    public String getAdUnitId() {
+                        return null;
+                    }
+
+                    @Override
+                    public void setFullScreenContentCallback(@Nullable FullScreenContentCallback fullScreenContentCallback) {
+
+                    }
+
+                    @Override
+                    public void setImmersiveMode(boolean b) {
+
+                    }
+
+                    @Override
+                    public void setOnPaidEventListener(@Nullable OnPaidEventListener onPaidEventListener) {
+
+                    }
+
+                    @Override
+                    public void show(@NonNull Activity activity) {
+
+                    }
+                };
+
+                InterstitialAd.load(MainActivity.this, "ca-app-pub-3801792611280684/3587150970", adRequest,
+                        new InterstitialAdLoadCallback() {
+                            @Override
+                            public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
+                                // The mInterstitialAd reference will be null until
+                                // an ad is loaded.
+                                mInterstitialAd = interstitialAd;
+                                Log.i("Loaded", "onAdLoaded");
+                            }
+
+                            @Override
+                            public void onAdFailedToLoad(@NonNull LoadAdError loadAdError) {
+                                // Handle the error
+                                Log.d("Not loaded", loadAdError.toString());
+                                mInterstitialAd = null;
+                            }
+                        });
+                mInterstitialAd.setFullScreenContentCallback(new FullScreenContentCallback() {
+                    @Override
+                    public void onAdClicked() {
+                        // Called when a click is recorded for an ad.
+                        Log.d(TAG, "Ad was clicked.");
+                    }
+
+                    @Override
+                    public void onAdDismissedFullScreenContent() {
+                        // Called when ad is dismissed.
+                        // Set the ad reference to null so you don't show the ad a second time.
+                        Log.d(TAG, "Ad dismissed fullscreen content.");
+                        mInterstitialAd = null;
+                    }
+
+                    @Override
+                    public void onAdFailedToShowFullScreenContent(AdError adError) {
+                        // Called when ad fails to show.
+                        Log.e(TAG, "Ad failed to show fullscreen content.");
+                        mInterstitialAd = null;
+                    }
+
+                    @Override
+                    public void onAdImpression() {
+                        // Called when an impression is recorded for an ad.
+                        Log.d(TAG, "Ad recorded an impression.");
+                    }
+
+                    @Override
+                    public void onAdShowedFullScreenContent() {
+                        // Called when ad is shown.
+                        Log.d(TAG, "Ad showed fullscreen content.");
+                    }
+                });
             }
         }
         new GetTask().execute();
@@ -1103,6 +1244,19 @@ public class MainActivity extends AppCompatActivity {
             }
             new WinTask().execute();
 
+            //TODO win
+            Bundle bundle = new Bundle();
+            bundle.putString("details", "win");
+            mFirebaseAnalytics.logEvent("game_won", bundle);
+
+            if (stats.getGames_played() % 3 == 0 && stats.getGames_played() != 0) {
+                if (mInterstitialAd != null) {
+                    mInterstitialAd.show(MainActivity.this);
+                } else {
+                    Log.d(TAG, "The interstitial ad wasn't ready yet.");
+                }
+            }
+
             disableButtons();
             return;
         }
@@ -1138,6 +1292,19 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
             new LoseTask().execute();
+
+            //TODO lose
+            Bundle bundle = new Bundle();
+            bundle.putString("details", "lose");
+            mFirebaseAnalytics.logEvent("game_lost", bundle);
+
+            if (stats.getGames_played() % 3 == 0 && stats.getGames_played() != 0) {
+                if (mInterstitialAd != null) {
+                    mInterstitialAd.show(MainActivity.this);
+                } else {
+                    Log.d(TAG, "The interstitial ad wasn't ready yet.");
+                }
+            }
 
             disableButtons();
             return;
@@ -1262,5 +1429,17 @@ public class MainActivity extends AppCompatActivity {
         x.setEnabled(true);
         y.setEnabled(true);
         z.setEnabled(true);
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        game_time.stop();
+        String str = String.valueOf(game_time.getText());
+        //TODO exit
+        Bundle bundle = new Bundle();
+        bundle.putString("details", "exit");
+        bundle.putString("time", str);
+        mFirebaseAnalytics.logEvent("exit_event", bundle);
     }
 }

@@ -73,9 +73,9 @@
     <Button
         android:id="@+id/button_wordit"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="35dp"
         android:textColor="@color/yellow"
-        android:textSize="35dp"
+        android:textSize="25dp"
         android:textStyle="bold"
         android:layout_marginStart="10dp"
         android:background="@drawable/square_blue"
@@ -83,6 +83,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="15dp"
-        android:text="W!"/>
+        android:text="PLAY"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
