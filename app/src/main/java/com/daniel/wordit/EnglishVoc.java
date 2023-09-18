@@ -284,6 +284,7 @@ public class EnglishVoc {
             "any\n" +
             "ape\n" +
             "apo\n" +
+            "app\n" +
             "apt\n" +
             "arc\n" +
             "are\n" +
@@ -358,6 +359,7 @@ public class EnglishVoc {
             "cay\n" +
             "ceo\n" +
             "chi\n" +
+            "cia\n" +
             "cio\n" +
             "cit\n" +
             "cob\n" +
@@ -374,6 +376,7 @@ public class EnglishVoc {
             "cpu\n" +
             "crt\n" +
             "cry\n" +
+            "cto\n" +
             "cub\n" +
             "cud\n" +
             "cue\n" +
@@ -508,6 +511,7 @@ public class EnglishVoc {
             "gop\n" +
             "got\n" +
             "gov\n" +
+            "gps\n" +
             "gum\n" +
             "gun\n" +
             "gut\n" +
@@ -634,6 +638,7 @@ public class EnglishVoc {
             "liz\n" +
             "lob\n" +
             "log\n" +
+            "lol\n" +
             "lop\n" +
             "los\n" +
             "lot\n" +
@@ -654,6 +659,7 @@ public class EnglishVoc {
             "maw\n" +
             "max\n" +
             "may\n" +
+            "mba\n" +
             "med\n" +
             "meg\n" +
             "men\n" +
@@ -682,11 +688,13 @@ public class EnglishVoc {
             "nag\n" +
             "nap\n" +
             "nay\n" +
+            "nba\n" +
             "nea\n" +
             "neb\n" +
             "net\n" +
             "nev\n" +
             "new\n" +
+            "nft\n" +
             "nib\n" +
             "nil\n" +
             "nip\n" +
@@ -842,6 +850,7 @@ public class EnglishVoc {
             "sec\n" +
             "see\n" +
             "sen\n" +
+            "seo\n" +
             "sep\n" +
             "seq\n" +
             "set\n" +
@@ -851,6 +860,7 @@ public class EnglishVoc {
             "shy\n" +
             "sic\n" +
             "sid\n" +
+            "sim\n" +
             "sin\n" +
             "sip\n" +
             "sir\n" +
@@ -1122,6 +1132,7 @@ public class EnglishVoc {
             "aped\n" +
             "apes\n" +
             "apex\n" +
+            "apps\n" +
             "apse\n" +
             "aqua\n" +
             "arab\n" +
@@ -1331,6 +1342,7 @@ public class EnglishVoc {
             "blip\n" +
             "blob\n" +
             "bloc\n" +
+            "blog\n" +
             "blot\n" +
             "blow\n" +
             "blub\n" +
@@ -1386,6 +1398,7 @@ public class EnglishVoc {
             "boss\n" +
             "bote\n" +
             "both\n" +
+            "bots\n" +
             "bout\n" +
             "bowl\n" +
             "bows\n" +
@@ -1897,6 +1910,7 @@ public class EnglishVoc {
             "easy\n" +
             "eats\n" +
             "eave\n" +
+            "ebay\n" +
             "ebbs\n" +
             "ebon\n" +
             "ecad\n" +
@@ -1929,6 +1943,7 @@ public class EnglishVoc {
             "else\n" +
             "emir\n" +
             "emit\n" +
+            "emma\n" +
             "emmy\n" +
             "empt\n" +
             "emus\n" +
@@ -1959,6 +1974,7 @@ public class EnglishVoc {
             "eton\n" +
             "etui\n" +
             "euro\n" +
+            "evan\n" +
             "even\n" +
             "ever\n" +
             "eves\n" +
@@ -2046,6 +2062,7 @@ public class EnglishVoc {
             "fido\n" +
             "fids\n" +
             "fief\n" +
+            "fifa\n" +
             "fife\n" +
             "fifi\n" +
             "fifo\n" +
@@ -2234,6 +2251,7 @@ public class EnglishVoc {
             "gibe\n" +
             "gibs\n" +
             "gift\n" +
+            "giga\n" +
             "gigs\n" +
             "gila\n" +
             "gild\n" +
@@ -2536,6 +2554,7 @@ public class EnglishVoc {
             "idol\n" +
             "ieee\n" +
             "iffy\n" +
+            "ikea\n" +
             "ikon\n" +
             "ilea\n" +
             "ilex\n" +
@@ -2602,6 +2621,7 @@ public class EnglishVoc {
             "jays\n" +
             "jazz\n" +
             "jean\n" +
+            "jedi\n" +
             "jeep\n" +
             "jeer\n" +
             "jell\n" +
@@ -2826,6 +2846,7 @@ public class EnglishVoc {
             "lees\n" +
             "left\n" +
             "lege\n" +
+            "lego\n" +
             "legs\n" +
             "lehr\n" +
             "leio\n" +
@@ -3028,6 +3049,7 @@ public class EnglishVoc {
             "meld\n" +
             "mell\n" +
             "melt\n" +
+            "meme\n" +
             "memo\n" +
             "mend\n" +
             "mens\n" +
@@ -3258,6 +3280,7 @@ public class EnglishVoc {
             "odds\n" +
             "odes\n" +
             "odin\n" +
+            "odor\n" +
             "oems\n" +
             "offs\n" +
             "ogee\n" +
@@ -3679,6 +3702,7 @@ public class EnglishVoc {
             "rife\n" +
             "riff\n" +
             "rift\n" +
+            "riga\n" +
             "rigs\n" +
             "rile\n" +
             "rill\n" +
@@ -4005,6 +4029,7 @@ public class EnglishVoc {
             "sone\n" +
             "song\n" +
             "sons\n" +
+            "sony\n" +
             "sook\n" +
             "sool\n" +
             "soon\n" +
@@ -4394,6 +4419,7 @@ public class EnglishVoc {
             "vane\n" +
             "vang\n" +
             "vans\n" +
+            "vape\n" +
             "vary\n" +
             "vasa\n" +
             "vase\n" +
@@ -4423,6 +4449,7 @@ public class EnglishVoc {
             "viae\n" +
             "vial\n" +
             "vias\n" +
+            "vibe\n" +
             "vice\n" +
             "vide\n" +
             "vidi\n" +
@@ -5244,6 +5271,7 @@ public class EnglishVoc {
             "bench\n" +
             "bends\n" +
             "bendy\n" +
+            "benin\n" +
             "benne\n" +
             "benny\n" +
             "bents\n" +
@@ -5272,6 +5300,7 @@ public class EnglishVoc {
             "bicep\n" +
             "biddy\n" +
             "bided\n" +
+            "biden\n" +
             "bides\n" +
             "bidet\n" +
             "biens\n" +
@@ -5349,6 +5378,7 @@ public class EnglishVoc {
             "blobs\n" +
             "block\n" +
             "blocs\n" +
+            "blogs\n" +
             "bloke\n" +
             "blond\n" +
             "blood\n" +
@@ -5968,6 +5998,7 @@ public class EnglishVoc {
             "colla\n" +
             "colog\n" +
             "colon\n" +
+            "color\n" +
             "colte\n" +
             "colts\n" +
             "colza\n" +
@@ -6653,6 +6684,7 @@ public class EnglishVoc {
             "ellen\n" +
             "elmer\n" +
             "elope\n" +
+            "elton\n" +
             "elude\n" +
             "elute\n" +
             "elvan\n" +
@@ -6845,6 +6877,7 @@ public class EnglishVoc {
             "fauns\n" +
             "faust\n" +
             "fauve\n" +
+            "favor\n" +
             "favus\n" +
             "fawns\n" +
             "faxed\n" +
@@ -7785,6 +7818,7 @@ public class EnglishVoc {
             "hongi\n" +
             "honks\n" +
             "honky\n" +
+            "honor\n" +
             "hooch\n" +
             "hoods\n" +
             "hooey\n" +
@@ -7836,6 +7870,7 @@ public class EnglishVoc {
             "humic\n" +
             "humid\n" +
             "humin\n" +
+            "humor\n" +
             "humph\n" +
             "humps\n" +
             "humpy\n" +
@@ -7955,6 +7990,7 @@ public class EnglishVoc {
             "input\n" +
             "inset\n" +
             "instr\n" +
+            "intel\n" +
             "inter\n" +
             "intra\n" +
             "intro\n" +
@@ -8266,6 +8302,7 @@ public class EnglishVoc {
             "label\n" +
             "labia\n" +
             "labra\n" +
+            "labor\n" +
             "laced\n" +
             "lacer\n" +
             "laces\n" +
@@ -8468,9 +8505,11 @@ public class EnglishVoc {
             "lists\n" +
             "liszt\n" +
             "litem\n" +
+            "liter\n" +
             "lites\n" +
             "lithe\n" +
             "litis\n" +
+            "litre\n" +
             "lived\n" +
             "liven\n" +
             "liver\n" +
@@ -8651,6 +8690,7 @@ public class EnglishVoc {
             "mammy\n" +
             "maned\n" +
             "manes\n" +
+            "manga\n" +
             "mange\n" +
             "mango\n" +
             "mangy\n" +
@@ -8746,6 +8786,7 @@ public class EnglishVoc {
             "melic\n" +
             "melon\n" +
             "melts\n" +
+            "memes\n" +
             "memos\n" +
             "mends\n" +
             "mensa\n" +
@@ -8826,6 +8867,7 @@ public class EnglishVoc {
             "miter\n" +
             "mites\n" +
             "mitis\n" +
+            "mitre\n" +
             "mitts\n" +
             "mixed\n" +
             "mixer\n" +
@@ -9126,6 +9168,7 @@ public class EnglishVoc {
             "numbs\n" +
             "numen\n" +
             "numis\n" +
+            "nunny\n" +
             "nurse\n" +
             "nutty\n" +
             "nylon\n" +
@@ -9139,6 +9182,7 @@ public class EnglishVoc {
             "oasis\n" +
             "oaten\n" +
             "oaths\n" +
+            "obama\n" +
             "obeah\n" +
             "obeli\n" +
             "obese\n" +
@@ -9163,6 +9207,8 @@ public class EnglishVoc {
             "oddly\n" +
             "odeon\n" +
             "odium\n" +
+            "odors\n" +
+            "odour\n" +
             "offal\n" +
             "offer\n" +
             "often\n" +
@@ -9643,6 +9689,7 @@ public class EnglishVoc {
             "powan\n" +
             "power\n" +
             "poxes\n" +
+            "prada\n" +
             "prams\n" +
             "prang\n" +
             "prank\n" +
@@ -10023,6 +10070,7 @@ public class EnglishVoc {
             "riggs\n" +
             "right\n" +
             "rigid\n" +
+            "rigor\n" +
             "riled\n" +
             "riles\n" +
             "rille\n" +
@@ -10147,6 +10195,7 @@ public class EnglishVoc {
             "rumex\n" +
             "rumly\n" +
             "rummy\n" +
+            "rumor\n" +
             "rumps\n" +
             "rumpy\n" +
             "runes\n" +
@@ -10251,6 +10300,7 @@ public class EnglishVoc {
             "saver\n" +
             "saves\n" +
             "savin\n" +
+            "savor\n" +
             "savoy\n" +
             "savvy\n" +
             "sawed\n" +
@@ -11636,6 +11686,7 @@ public class EnglishVoc {
             "vales\n" +
             "valet\n" +
             "valid\n" +
+            "valor\n" +
             "valse\n" +
             "value\n" +
             "valva\n" +
@@ -11643,7 +11694,9 @@ public class EnglishVoc {
             "vamps\n" +
             "vaned\n" +
             "vanes\n" +
+            "vapes\n" +
             "vapid\n" +
+            "vapor\n" +
             "varia\n" +
             "varix\n" +
             "varum\n" +
@@ -11709,6 +11762,7 @@ public class EnglishVoc {
             "views\n" +
             "viewy\n" +
             "vigil\n" +
+            "vigor\n" +
             "viler\n" +
             "villa\n" +
             "villi\n" +
@@ -12196,6 +12250,7 @@ public class EnglishVoc {
             "adenyl\n" +
             "adeste\n" +
             "adhere\n" +
+            "adidas\n" +
             "adient\n" +
             "adieus\n" +
             "adieux\n" +
@@ -12598,6 +12653,8 @@ public class EnglishVoc {
             "armies\n" +
             "arming\n" +
             "armlet\n" +
+            "armors\n" +
+            "armour\n" +
             "armpit\n" +
             "armure\n" +
             "arnhem\n" +
@@ -12921,6 +12978,7 @@ public class EnglishVoc {
             "bassos\n" +
             "basted\n" +
             "bastes\n" +
+            "batata\n" +
             "bateau\n" +
             "bathed\n" +
             "bather\n" +
@@ -13305,6 +13363,7 @@ public class EnglishVoc {
             "booker\n" +
             "bookie\n" +
             "boomed\n" +
+            "boomer\n" +
             "boosts\n" +
             "booted\n" +
             "bootee\n" +
@@ -13717,6 +13776,7 @@ public class EnglishVoc {
             "cancra\n" +
             "candid\n" +
             "candle\n" +
+            "candor\n" +
             "caners\n" +
             "canful\n" +
             "canine\n" +
@@ -13731,6 +13791,7 @@ public class EnglishVoc {
             "cannot\n" +
             "canoed\n" +
             "canoes\n" +
+            "canola\n" +
             "canons\n" +
             "canopy\n" +
             "canted\n" +
@@ -13786,6 +13847,7 @@ public class EnglishVoc {
             "carlin\n" +
             "carlos\n" +
             "carlot\n" +
+            "carmen\n" +
             "carnal\n" +
             "carnet\n" +
             "carols\n" +
@@ -13905,8 +13967,10 @@ public class EnglishVoc {
             "censor\n" +
             "census\n" +
             "cental\n" +
+            "center\n" +
             "centos\n" +
             "centra\n" +
+            "centre\n" +
             "centum\n" +
             "ceorls\n" +
             "cerate\n" +
@@ -14114,6 +14178,7 @@ public class EnglishVoc {
             "claims\n" +
             "clammi\n" +
             "clammy\n" +
+            "clamor\n" +
             "clamps\n" +
             "clangs\n" +
             "clanks\n" +
@@ -14283,6 +14348,8 @@ public class EnglishVoc {
             "colons\n" +
             "colony\n" +
             "colore\n" +
+            "colors\n" +
+            "colour\n" +
             "colter\n" +
             "column\n" +
             "colure\n" +
@@ -15786,6 +15853,7 @@ public class EnglishVoc {
             "fabler\n" +
             "fables\n" +
             "fabric\n" +
+            "fabula\n" +
             "facade\n" +
             "facers\n" +
             "facets\n" +
@@ -15880,6 +15948,8 @@ public class EnglishVoc {
             "faunas\n" +
             "fauves\n" +
             "favism\n" +
+            "favour\n" +
+            "favors\n" +
             "fawned\n" +
             "fawner\n" +
             "faxing\n" +
@@ -16071,6 +16141,7 @@ public class EnglishVoc {
             "flatus\n" +
             "flaunt\n" +
             "flavin\n" +
+            "flavor\n" +
             "flavum\n" +
             "flawed\n" +
             "flaxen\n" +
@@ -16629,6 +16700,7 @@ public class EnglishVoc {
             "gladly\n" +
             "glairs\n" +
             "glairy\n" +
+            "glamor\n" +
             "glance\n" +
             "glands\n" +
             "glared\n" +
@@ -17044,6 +17116,7 @@ public class EnglishVoc {
             "hapten\n" +
             "haptic\n" +
             "harass\n" +
+            "harbor\n" +
             "harden\n" +
             "harder\n" +
             "hardly\n" +
@@ -17051,6 +17124,7 @@ public class EnglishVoc {
             "harked\n" +
             "harken\n" +
             "harlem\n" +
+            "harley\n" +
             "harlot\n" +
             "harmed\n" +
             "harmer\n" +
@@ -17307,6 +17381,8 @@ public class EnglishVoc {
             "honker\n" +
             "honkey\n" +
             "honkie\n" +
+            "honors\n" +
+            "honour\n" +
             "honshu\n" +
             "hooded\n" +
             "hoodie\n" +
@@ -17391,6 +17467,7 @@ public class EnglishVoc {
             "hummed\n" +
             "hummer\n" +
             "hummus\n" +
+            "humour\n" +
             "humped\n" +
             "humpty\n" +
             "hunger\n" +
@@ -17529,6 +17606,7 @@ public class EnglishVoc {
             "indent\n" +
             "indian\n" +
             "indica\n" +
+            "indice\n" +
             "indict\n" +
             "indies\n" +
             "indigo\n" +
@@ -18093,6 +18171,7 @@ public class EnglishVoc {
             "labial\n" +
             "labile\n" +
             "labium\n" +
+            "labour\n" +
             "labret\n" +
             "labrum\n" +
             "lacers\n" +
@@ -18427,10 +18506,12 @@ public class EnglishVoc {
             "litany\n" +
             "litchi\n" +
             "litera\n" +
+            "liters\n" +
             "lither\n" +
             "lithia\n" +
             "lithic\n" +
             "litmus\n" +
+            "litres\n" +
             "litter\n" +
             "little\n" +
             "littre\n" +
@@ -18582,7 +18663,9 @@ public class EnglishVoc {
             "lushes\n" +
             "lushly\n" +
             "lusted\n" +
+            "luster\n" +
             "lustra\n" +
+            "lustre\n" +
             "luteae\n" +
             "luteal\n" +
             "lutein\n" +
@@ -18888,6 +18971,7 @@ public class EnglishVoc {
             "mentis\n" +
             "menton\n" +
             "mentor\n" +
+            "mentos\n" +
             "mentum\n" +
             "meowed\n" +
             "mercer\n" +
@@ -18915,11 +18999,14 @@ public class EnglishVoc {
             "metage\n" +
             "metals\n" +
             "meteor\n" +
+            "meters\n" +
             "method\n" +
             "methyl\n" +
             "metier\n" +
             "meting\n" +
             "metrae\n" +
+            "metred\n" +
+            "metres\n" +
             "metria\n" +
             "metric\n" +
             "metros\n" +
@@ -19014,6 +19101,7 @@ public class EnglishVoc {
             "mitior\n" +
             "mitome\n" +
             "mitral\n" +
+            "mitres\n" +
             "mitten\n" +
             "mixers\n" +
             "mixing\n" +
@@ -19519,6 +19607,7 @@ public class EnglishVoc {
             "oddity\n" +
             "odessa\n" +
             "odious\n" +
+            "odours\n" +
             "oecoid\n" +
             "oedema\n" +
             "oeuvre\n" +
@@ -20496,6 +20585,7 @@ public class EnglishVoc {
             "prolan\n" +
             "proleg\n" +
             "prolix\n" +
+            "prolog\n" +
             "prolon\n" +
             "promos\n" +
             "prompt\n" +
@@ -20776,6 +20866,7 @@ public class EnglishVoc {
             "ramson\n" +
             "ramuli\n" +
             "rancid\n" +
+            "rancor\n" +
             "randan\n" +
             "randem\n" +
             "random\n" +
@@ -20850,6 +20941,7 @@ public class EnglishVoc {
             "rawbon\n" +
             "rawest\n" +
             "rawish\n" +
+            "rayban\n" +
             "raying\n" +
             "raylet\n" +
             "rayons\n" +
@@ -21240,6 +21332,7 @@ public class EnglishVoc {
             "rigged\n" +
             "rigger\n" +
             "rights\n" +
+            "rigour\n" +
             "riling\n" +
             "rilles\n" +
             "rillet\n" +
@@ -21413,6 +21506,8 @@ public class EnglishVoc {
             "rumens\n" +
             "rumina\n" +
             "rummer\n" +
+            "rumors\n" +
+            "rumour\n" +
             "rumple\n" +
             "rumply\n" +
             "rumpus\n" +
@@ -21574,6 +21669,8 @@ public class EnglishVoc {
             "saving\n" +
             "savins\n" +
             "savoir\n" +
+            "savors\n" +
+            "savour\n" +
             "savoys\n" +
             "sawder\n" +
             "sawers\n" +
@@ -21754,6 +21851,7 @@ public class EnglishVoc {
             "sejant\n" +
             "seldom\n" +
             "select\n" +
+            "selfie\n" +
             "sellae\n" +
             "sellar\n" +
             "sellas\n" +
@@ -22743,6 +22841,7 @@ public class EnglishVoc {
             "subtly\n" +
             "suburb\n" +
             "subway\n" +
+            "succor\n" +
             "succus\n" +
             "sucked\n" +
             "sucker\n" +
@@ -23965,6 +24064,7 @@ public class EnglishVoc {
             "valium\n" +
             "valley\n" +
             "vallum\n" +
+            "valour\n" +
             "valses\n" +
             "valued\n" +
             "valuer\n" +
@@ -23978,6 +24078,7 @@ public class EnglishVoc {
             "vandal\n" +
             "vanish\n" +
             "vanity\n" +
+            "vapour\n" +
             "vaquez\n" +
             "varied\n" +
             "varies\n" +
@@ -24086,6 +24187,7 @@ public class EnglishVoc {
             "viewer\n" +
             "vigils\n" +
             "vigore\n" +
+            "vigour\n" +
             "viking\n" +
             "vilely\n" +
             "vilest\n" +
@@ -24254,6 +24356,7 @@ public class EnglishVoc {
             "warren\n" +
             "warsaw\n" +
             "warted\n" +
+            "wasabi\n" +
             "washed\n" +
             "washer\n" +
             "washes\n" +
@@ -24937,7 +25040,9 @@ public class EnglishVoc {
             "agnosia\n" +
             "agnosic\n" +
             "agonies\n" +
+            "agonise\n" +
             "agonist\n" +
+            "agonize\n" +
             "agoutis\n" +
             "agraffe\n" +
             "agreers\n" +
@@ -25159,7 +25264,9 @@ public class EnglishVoc {
             "anality\n" +
             "analogs\n" +
             "analogy\n" +
+            "analyse\n" +
             "analyst\n" +
+            "analyze\n" +
             "anapest\n" +
             "anarchy\n" +
             "anatomy\n" +
@@ -25419,6 +25526,8 @@ public class EnglishVoc {
             "armlets\n" +
             "armlike\n" +
             "armload\n" +
+            "armored\n" +
+            "armorer\n" +
             "armpits\n" +
             "armrest\n" +
             "arnicas\n" +
@@ -25858,6 +25967,7 @@ public class EnglishVoc {
             "bastian\n" +
             "basting\n" +
             "bastion\n" +
+            "batatas\n" +
             "batched\n" +
             "batches\n" +
             "bateaux\n" +
@@ -26268,6 +26378,7 @@ public class EnglishVoc {
             "blobbed\n" +
             "blocked\n" +
             "blocker\n" +
+            "blogger\n" +
             "blonder\n" +
             "blondes\n" +
             "blooded\n" +
@@ -26406,6 +26517,7 @@ public class EnglishVoc {
             "booklet\n" +
             "boolean\n" +
             "boomage\n" +
+            "boomers\n" +
             "booming\n" +
             "boomkin\n" +
             "boonies\n" +
@@ -27003,6 +27115,8 @@ public class EnglishVoc {
             "candled\n" +
             "candler\n" +
             "candles\n" +
+            "candors\n" +
+            "candour\n" +
             "canidae\n" +
             "canines\n" +
             "cankers\n" +
@@ -27275,11 +27389,13 @@ public class EnglishVoc {
             "censure\n" +
             "centaur\n" +
             "centavo\n" +
+            "centers\n" +
             "centile\n" +
             "centime\n" +
             "centner\n" +
             "centrad\n" +
             "central\n" +
+            "centres\n" +
             "centrex\n" +
             "centric\n" +
             "centrum\n" +
@@ -27621,6 +27737,8 @@ public class EnglishVoc {
             "clamant\n" +
             "clamber\n" +
             "clammed\n" +
+            "clamors\n" +
+            "clamour\n" +
             "clamped\n" +
             "clamper\n" +
             "clanged\n" +
@@ -27861,6 +27979,7 @@ public class EnglishVoc {
             "colonel\n" +
             "colones\n" +
             "colonic\n" +
+            "colours\n" +
             "colossi\n" +
             "coltish\n" +
             "columna\n" +
@@ -30368,6 +30487,7 @@ public class EnglishVoc {
             "fauvism\n" +
             "fauvist\n" +
             "faveoli\n" +
+            "favours\n" +
             "fawners\n" +
             "fawning\n" +
             "fearers\n" +
@@ -30644,6 +30764,8 @@ public class EnglishVoc {
             "flavian\n" +
             "flavine\n" +
             "flavone\n" +
+            "flavors\n" +
+            "flavour\n" +
             "flawing\n" +
             "flaxsed\n" +
             "flayers\n" +
@@ -31434,6 +31556,8 @@ public class EnglishVoc {
             "gladder\n" +
             "gladdon\n" +
             "glaired\n" +
+            "glamors\n" +
+            "glamour\n" +
             "glanced\n" +
             "glances\n" +
             "glander\n" +
@@ -32045,6 +32169,8 @@ public class EnglishVoc {
             "hapsbur\n" +
             "haptene\n" +
             "haptens\n" +
+            "harbors\n" +
+            "harbour\n" +
             "hardens\n" +
             "hardest\n" +
             "hardier\n" +
@@ -32407,6 +32533,7 @@ public class EnglishVoc {
             "honkies\n" +
             "honking\n" +
             "honoris\n" +
+            "honours\n" +
             "hoodlum\n" +
             "hoodoos\n" +
             "hoofing\n" +
@@ -33709,6 +33836,7 @@ public class EnglishVoc {
             "leonina\n" +
             "leonine\n" +
             "leopard\n" +
+            "leopold\n" +
             "leotard\n" +
             "leporid\n" +
             "leproid\n" +
@@ -34060,11 +34188,13 @@ public class EnglishVoc {
             "luridly\n" +
             "lurking\n" +
             "lushing\n" +
+            "lusters\n" +
             "lustful\n" +
             "lustier\n" +
             "lustily\n" +
             "lusting\n" +
             "lustral\n" +
+            "lustres\n" +
             "lustrum\n" +
             "luteoma\n" +
             "lutists\n" +
@@ -34605,6 +34735,7 @@ public class EnglishVoc {
             "mingled\n" +
             "mingler\n" +
             "mingles\n" +
+            "minibar\n" +
             "minibus\n" +
             "minimal\n" +
             "minimis\n" +
@@ -34747,6 +34878,7 @@ public class EnglishVoc {
             "monkish\n" +
             "monocle\n" +
             "monodic\n" +
+            "monolog\n" +
             "monomer\n" +
             "monopus\n" +
             "monsoon\n" +
@@ -36964,6 +37096,7 @@ public class EnglishVoc {
             "projets\n" +
             "prolate\n" +
             "proline\n" +
+            "prologs\n" +
             "prolong\n" +
             "promise\n" +
             "promote\n" +
@@ -37384,6 +37517,8 @@ public class EnglishVoc {
             "ranched\n" +
             "rancher\n" +
             "ranches\n" +
+            "rancors\n" +
+            "rancour\n" +
             "randans\n" +
             "randier\n" +
             "randily\n" +
@@ -37489,9 +37624,11 @@ public class EnglishVoc {
             "realest\n" +
             "realgar\n" +
             "realign\n" +
+            "realise\n" +
             "realism\n" +
             "realist\n" +
             "reality\n" +
+            "realize\n" +
             "reallot\n" +
             "realter\n" +
             "realtor\n" +
@@ -38338,6 +38475,7 @@ public class EnglishVoc {
             "rummest\n" +
             "rummily\n" +
             "rumness\n" +
+            "rumours\n" +
             "rumpled\n" +
             "rumples\n" +
             "runaway\n" +
@@ -38565,6 +38703,7 @@ public class EnglishVoc {
             "savants\n" +
             "saveloy\n" +
             "savings\n" +
+            "savours\n" +
             "savvied\n" +
             "savvies\n" +
             "sawbill\n" +
@@ -38837,6 +38976,7 @@ public class EnglishVoc {
             "seizure\n" +
             "selects\n" +
             "selenic\n" +
+            "selfies\n" +
             "selfish\n" +
             "sellaes\n" +
             "sellers\n" +
@@ -39711,7 +39851,9 @@ public class EnglishVoc {
             "specify\n" +
             "specked\n" +
             "speckle\n" +
+            "specter\n" +
             "spectra\n" +
+            "spectre\n" +
             "specula\n" +
             "speeded\n" +
             "speeder\n" +
@@ -40251,6 +40393,7 @@ public class EnglishVoc {
             "succeed\n" +
             "success\n" +
             "succory\n" +
+            "succour\n" +
             "succuba\n" +
             "succubi\n" +
             "succumb\n" +
@@ -40841,6 +40984,8 @@ public class EnglishVoc {
             "thanker\n" +
             "thatchy\n" +
             "thawing\n" +
+            "theater\n" +
+            "theatre\n" +
             "thebaic\n" +
             "thecate\n" +
             "thecoma\n" +

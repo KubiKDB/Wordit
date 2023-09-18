@@ -50,7 +50,6 @@ import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
     private FirebaseAnalytics mFirebaseAnalytics;
-
     private InterstitialAd mInterstitialAd;
 
     Chronometer game_time;
